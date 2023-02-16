@@ -1,22 +1,26 @@
 #4. Cree una clase Rectángulo la cual contiene dos atributos de instancia que representan
 #los puntos que definen sus esquinas. Agregue métodos a la clase Rectángulo para calcular su perímetro,
 #calcular su área e indicar si el rectángulo es un cuadrado.
+from punto import Punto
 
 class Rectangulo:
 
-    def __init__(self, x: int, y: int):
-        self.x: int = x
-        self.y: int = y
+    def __init__(self, punto_1: Punto, punto_2:Punto):
+        self.punto_1 = punto_1
+        self.punto_2 = punto_2
+        self.base = self.punto_2.x - self.punto_1.x
+        self.altura = self.punto_2.y - self.punto_1.y
 
-    def calcular_perimetro(self, otro_punto):
+    def calcular_perimetro(self) -> int:
+        perimetro = 2*self.base+2*self.altura
+        return perimetro
 
-        perimetro_base_x = self.x-otro_punto.x
-        perimetro_altura_y = self.y-otro_punto.y
+    def calcular_area(self) -> int:
+        area = self.base*self.altura
+        return area
 
-        print(perimetro_altura_y,perimetro_base_x)
-
-    def calcular_area(self):
-        pass
-
-    def cuadrado(self):
-        pass
+    def es_cuadrado(self):
+        if self.base == self.altura:
+            print("Es un cuadrado")
+        else:
+            print("No es un cuadrado")
