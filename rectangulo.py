@@ -12,11 +12,11 @@ class Rectangulo:
         self.altura = self.punto_2.y - self.punto_1.y
 
     def calcular_perimetro(self) -> int:
-        perimetro = 2*self.base+2*self.altura
+        perimetro = 2 * self.base + 2 * self.altura
         return perimetro
 
     def calcular_area(self) -> int:
-        area = self.base*self.altura
+        area = self.base * self.altura
         return area
 
     def es_cuadrado(self):
