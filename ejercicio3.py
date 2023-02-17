@@ -20,7 +20,7 @@ if __name__ == "__main__":
     from circulo import Circulo
 
     circulo1 = Circulo(Punto (1,4), 7)
-    circulon2 = Circulo(Punto(2,8), 8)
+    circulon2 = Circulo(Punto(2,8), 5)
     circulo1.calcular_area()
     circulo1.calcular_perimetro()
     circulo1.pertenece_al_circulo(circulon2)
