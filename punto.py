@@ -29,7 +29,3 @@ class Punto:
         distancia_x = self.x-otro_punto.x
         distancia_y = self.y-otro_punto.y
         print(distancia_y,distancia_x)
-
-
-
-

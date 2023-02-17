@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fc7985b6-4a1c-4908-be72-1e964134b118" name="Changes" comment="rectangulo hecho">
       <change afterPath="$PROJECT_DIR$/carta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/circulo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/punto.py" beforeDir="false" afterPath="$PROJECT_DIR$/punto.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676575919984</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rectangulo hecho">
+      <created>1676590257509</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676590257509</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
